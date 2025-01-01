@@ -10,7 +10,7 @@ import router from "./routes/ContactRoute.js"
 
 // app config
 const app = express()
-const port = process.env.PORT || 4001;
+const port = 4001;
 
 // middleware
 app.use(express.json())
